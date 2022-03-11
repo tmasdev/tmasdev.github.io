@@ -1,3 +1,63 @@
 html{
     background-color: #212124;
 }
+#projectsScreen {
+    height: auto;
+    /* container flex */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border: solid aqua 2px;
+}
+#projectsContainer {
+    min-width: 70vw;
+    width: 85vh;
+    max-width: 90%;
+    height: auto;
+    /* container flex */
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5vh;
+    border: solid antiquewhite 2px;
+}
+.contentContainer {
+    width: 100%;
+    height: auto;
+    color:aliceblue;
+    /* container flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    column-gap: 2vw;
+    row-gap: 2vh;
+    border: solid firebrick;
+}
+.contentTypeOne {
+    /* self flex */
+    flex-wrap: wrap-reverse;
+}
+.contentTypeTwo {
+    /* self flex */
+    flex-wrap: wrap-reverse;
+
+}
+.contentMedia {
+    min-height:300px;
+    height: 40vh;
+    min-width: 30vh;
+    /* self flex */
+    flex-grow: 3;
+    border: solid lavender;
+}
+.contentDescription {
+    min-height:300px;
+    height: 40vh;
+    min-width: 40vh;
+    /* self flex */
+    flex-grow: 4;
+    border: solid rebeccapurple;
+}
