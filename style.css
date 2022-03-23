@@ -38,7 +38,7 @@ html{
 }
 .contentTypeOne {
     /* self flex */
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 .contentTypeTwo {
     /* self flex */
@@ -46,18 +46,36 @@ html{
 
 }
 .contentMedia {
-    min-height:300px;
-    height: 40vh;
-    min-width: 30vh;
+    min-height:200px;
+    height: 35vh;
+    min-width: 40vh;
     /* self flex */
     flex-grow: 3;
     border: solid lavender;
+    display:grid;
+    justify-content: center;
+}
+.mediaSized{
+    height: 35vh;
+    min-height:200px;
+    min-width: 40vh;
 }
 .contentDescription {
-    min-height:300px;
-    height: 40vh;
+    min-height:200px;
+    height: 35vh;
     min-width: 40vh;
+    inline-size: 30vw;
     /* self flex */
     flex-grow: 4;
     border: solid rebeccapurple;
+    display:grid;
+}
+.contentDescriptionTitle{
+    margin: 12.5px;
+    font-family: Courier;
+}
+.contentDescriptionText{
+    margin: 12.5px;
+    font-family: Courier;
+    font-size: 80%;
 }
