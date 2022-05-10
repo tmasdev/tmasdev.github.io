@@ -75,7 +75,7 @@ html{
     font-family: Courier;
 }
 .contentDescriptionText{
-    margin: 12.5px;
+    margin: 2.5px auto 2.5px;
     font-family: Courier;
-    font-size: 1.2vh;
+    font-size: 1.5vh;
 }
