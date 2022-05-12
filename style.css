@@ -67,7 +67,7 @@ html{
     padding: 0 2.5vh;
     min-height:200px;
     height: 35vh;
-    min-width: 40vh;
+    min-width: 46vh;
     inline-size: 30vw;
     /* self flex */
     flex-grow: 4;
