@@ -1,6 +1,66 @@
 html{
     background-color: #1c1c1e;
 }
+#landingScreen{
+}
+#landingContainer{
+    margin: auto auto 5vh;
+    height: 69vh;
+    width: 95vw;
+    background-color: #2c2c2e;
+}
+#pageTextContainer{
+    position: absolute;
+    bottom: 51vh;
+    width: auto;
+    margin: 0vh 30vh 0vh 6vh;
+    /* border: solid yellow; */
+    /* container flex */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: left;
+}
+#pageTitle{
+    font-family: Courier;
+    font-size: 10vh;
+    color:aliceblue;
+    /* border: solid blue; */
+}
+#pageBio{
+    font-family: Courier;
+    font-size: 1.5vh;
+    color:aliceblue;
+    height:auto;
+    /* border: solid blue; */
+    max-width: 65vh;
+}
+/* #pageMagicContainer{
+    font-family: Courier;
+    font-size: 10vh;
+    color:aliceblue;
+    border: solid blue;
+    width: 18vh;
+}
+#pageMagicButton{
+    font-family: Courier;
+    color:aliceblue;
+    background-color: #1c1c1e;
+    border-radius: 3vh;
+    height: 12vh;
+    width: 18vh;
+    border: solid orange; */
+    /* container flex */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pageMagicText{
+    font-family: Courier;
+    font-size: 5vh;
+    color:aliceblue;
+    border: solid red;
+}*/
 #projectsScreen {
     height: auto;
     /* container flex */
@@ -76,4 +136,5 @@ html{
     /* margin: auto auto auto auto; */
     font-family: Courier;
     font-size: 1.5vh;
+    max-width: 75vw;
 }
