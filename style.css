@@ -38,14 +38,13 @@ html{
     height: 74vh;
     max-width: 80vw;
     width: 50vh;
-    background-color: #2c2c2e;
-}
-.linksTextContainer{
+    /* background-color: #2c2c2e; */
 }
 #navHref{
     font-family: Courier;
     font-size: 1.5vh;
     color:aliceblue;
+    text-decoration: none;
 }
 #pageTextContainer{
     position: absolute;
@@ -129,31 +128,37 @@ html{
 }
 .linkItem {
     /* container flex */
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+    background-color: #2c2c2e;
+    border-radius: 20px;
+    margin-top: 3vh;
+    padding: 1vh;
+}   
 .linksMedia {
 }
 .linksFavicon{
     height: 5vh;
 }
 #linkList{
-    display: block;
-    float: left;
+    padding-left:0px;
 }
 .linksTextContainer{
+    padding-left: 2vh;
     height: 5vh;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 .linkText{
     /* text-justify: center; */
     font-family: Courier;
-    font-size: 1vh;
+    font-size: 3vh;
     color:aliceblue;
-    height:auto;
-    max-width: 65vh;
+    text-decoration: none;
 }
 .contentDescription {
     padding: 0 2.5vh;
