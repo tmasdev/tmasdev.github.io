@@ -9,12 +9,28 @@ html{
     width: 95vw;
     background-color: #2c2c2e;
 }
+#linksTextContainer{
+    position: absolute;
+    top: 4vh;
+    right: 11vh;
+    width: 9vh;
+    height: 3vh;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #e5e5ea;
+    border-radius: 10%;
+}
+#linksHref{
+    font-family: Courier;
+    font-size: 1.5vh;
+    color:aliceblue;
+}
 #pageTextContainer{
     position: absolute;
-    bottom: 51vh;
+    top: 0vh;
     width: auto;
     margin: 0vh 30vh 0vh 6vh;
-    /* border: solid yellow; */
     /* container flex */
     display: flex;
     flex-flow: column;
@@ -25,42 +41,14 @@ html{
     font-family: Courier;
     font-size: 10vh;
     color:aliceblue;
-    /* border: solid blue; */
 }
 #pageBio{
     font-family: Courier;
     font-size: 1.5vh;
     color:aliceblue;
     height:auto;
-    /* border: solid blue; */
     max-width: 65vh;
 }
-/* #pageMagicContainer{
-    font-family: Courier;
-    font-size: 10vh;
-    color:aliceblue;
-    border: solid blue;
-    width: 18vh;
-}
-#pageMagicButton{
-    font-family: Courier;
-    color:aliceblue;
-    background-color: #1c1c1e;
-    border-radius: 3vh;
-    height: 12vh;
-    width: 18vh;
-    border: solid orange; */
-    /* container flex */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#pageMagicText{
-    font-family: Courier;
-    font-size: 5vh;
-    color:aliceblue;
-    border: solid red;
-}*/
 #projectsScreen {
     height: auto;
     /* container flex */
