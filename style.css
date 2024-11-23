@@ -101,7 +101,7 @@ html{
 .contentMedia {
     padding: 2% 0px;
     min-height:200px;
-    height: 35vh;
+    height: 40vh;
     min-width: 40vh;
     /* self flex */
     flex-grow: 3;
@@ -112,6 +112,7 @@ html{
     height: 35vh;
     min-height:200px;
     min-width: 40vh;
+    max-width: 100%;
 }
 .linkItem {
     /* container flex */
@@ -159,7 +160,7 @@ html{
 .contentDescription {
     padding: 0 2.5vh;
     min-height:200px;
-    height: 35vh;
+    height: 42vh;
     min-width: 46vh;
     inline-size: 30vw;
     /* self flex */
