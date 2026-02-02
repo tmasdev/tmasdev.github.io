@@ -103,16 +103,24 @@ html{
     min-height:200px;
     height: 40vh;
     min-width: 40vh;
-    /* self flex */
     flex-grow: 3;
-    display:grid;
+    display: grid;
     justify-content: center;
+    position: relative;
 }
 .mediaSized{
     height: 35vh;
     min-height:200px;
     min-width: 40vh;
     max-width: 100%;
+}
+.linkIconSized {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    bottom: 5%;
+    left: 5%;
+    pointer-events: none;
 }
 .linkItem {
     /* container flex */
